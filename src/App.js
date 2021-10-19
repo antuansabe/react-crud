@@ -19,6 +19,7 @@ const data = [
   { id: 4, personaje: "Monkey D. Luffy", anime: "One Piece" },
   { id: 5, personaje: "Edward Elric", anime: "Fullmetal Alchemist: Brotherhood"},
   { id: 6, personaje: "Seto Kaiba", anime: "Yu-Gi-Oh!" },
+  { id: 7, personaje: "Nezuco", anime: "Demon Slayer" }
 ];
 
 class App extends React.Component {
@@ -141,13 +142,13 @@ class App extends React.Component {
 
         <Modal isOpen={this.state.modalActualizar}>
           <ModalHeader>
-           <div><h3>Editar Registro</h3></div>
+            <div><h3>Editar Registro</h3></div>
           </ModalHeader>
 
           <ModalBody>
             <FormGroup>
               <label>
-               Id:
+                Id:
               </label>
             
               <input
